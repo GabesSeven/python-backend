@@ -56,7 +56,7 @@
   <br>
   <ul>
     <li>  
-      <b>localhost:8882/list</b>, performs a GET HTTP request, displaying the strings of the text file <b>"list.txt"</b> in JSON on the web page.
+      <b>localhost:8883/list</b>, performs a GET HTTP request, displaying the strings of the text file <b>"list.txt"</b> in JSON on the web page.
     </li>
     <li>
       using POST requests with the JSON parameter {"message": "fruit_name"}, for example, with the <i>Postman</i> program (<a href='https://identity.getpostman.com/'>https://identity.getpostman.com/</a>) you can insert a new string in the <b>"list.txt"</b> file.
