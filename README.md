@@ -6,6 +6,7 @@
 
 <p align="justify">
   Basic scripts for requests and data manipulation in back-end running locally.<br>
+  Using the Tornado library (<a href='https://www.tornadoweb.org/en/stable/'>https://www.tornadoweb.org/en/stable/</a>) 
 </p>
 
 <hr>
@@ -58,7 +59,7 @@
       <b>localhost:8882/list</b>, performs a GET HTTP request, displaying the strings of the text file <b>"list.txt"</b> in JSON on the web page.
     </li>
     <li>
-      using POST requests with the JSON parameter {"message": "fruit_name"}, for example, with the <i>Postman</i> program (<a href='https://identity.getpostman.com/'>https ://identity.getpostman.com/</a>) you can insert a new string in the <b>"list.txt"</b> file.
+      using POST requests with the JSON parameter {"message": "fruit_name"}, for example, with the <i>Postman</i> program (<a href='https://identity.getpostman.com/'>https://identity.getpostman.com/</a>) you can insert a new string in the <b>"list.txt"</b> file.
     </li>
   </ul>
 </p>
