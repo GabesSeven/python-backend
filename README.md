@@ -43,7 +43,7 @@
       <b>localhost:8882/isEven?num=2</b>, redirects to an html page where it is checked if the value of the parameter passed in <b>"num"</b> is an integer or not.
     </li>
     <li>  
-      <b>localhost:8882/students/name/id</b> redirects to an html page where the parameters <b>"name"</b> and <b>"id"</b> are displayed (respectively. through regular expressions [a-z]+ and [0-9]+) .
+      <b>localhost:8882/students/name/id</b>, redirects to an html page where the parameters <b>"name"</b> and <b>"id"</b> are displayed (respectively. through regular expressions [a-z]+ and [0-9]+).
     </li>
   </ul>
 </p>
@@ -59,7 +59,7 @@
       <b>localhost:8883/list</b>, performs a GET HTTP request, displaying the strings of the text file <b>"list.txt"</b> in JSON on the web page.
     </li>
     <li>
-      using POST requests with the JSON parameter {"message": "fruit_name"}, for example, with the <i>Postman</i> program (<a href='https://identity.getpostman.com/'>https://identity.getpostman.com/</a>) you can insert a new string in the <b>"list.txt"</b> file.
+      using POST requests with the JSON parameter <b>{"message": "fruit_name"}</b>, for example, with the <i>Postman</i> program (<a href='https://identity.getpostman.com/'>https://identity.getpostman.com/</a>) you can insert a new string in the <b>"list.txt"</b> file.
     </li>
   </ul>
 </p>
