@@ -1,4 +1,4 @@
-<h1 align="center">python-backend</h1>
+<h1 align="center">Python backend</h1>
 
 <hr>
 
